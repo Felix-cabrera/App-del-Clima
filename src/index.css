@@ -1,10 +1,22 @@
-*,
-*::after,
-*::before {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+html{
+    font-family: 'Merriweather', serif;
+}
+* {
     box-sizing: border-box;
+}
+body {
     margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+h1,h2,h3,li,ul, p {
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
 }
-body{
-    font-family: 'inter',sans-serif;
+button {
+    border: none;
+    font-family: inherit;
 }

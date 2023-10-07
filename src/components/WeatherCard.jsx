@@ -7,11 +7,10 @@ const WeatherCard = ({weather, temp}) => {
     <article className="container">
       <h1>Weather App</h1>
       <h2><span>{weather?.name}</span>, <span>{weather?.sys.country}</span></h2>
-      <div>
+      <div className="container__div">
         <div className="img">
           <img src={weather && `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} 
-          alt="foto" 
-          />
+          alt="foto"/>
         </div>
         <section className="container_data">
           <h3>"{weather?.weather[0].description}"</h3>

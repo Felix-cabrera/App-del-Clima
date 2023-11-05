@@ -13,7 +13,7 @@
 .container{
     width: 300px;
     height: 500px;
-    border: 2px solid rgba(255, 196, 0, 0.418);
+    border: 2px solid rgb(172, 170, 170);
     border-radius: 10px;
     margin: 1em 0;
     display: flex;
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: rgba(255, 255, 255, 0.601);
 }
 .container__div{
     display: flex;
